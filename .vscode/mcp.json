@@ -1,0 +1,9 @@
+{
+  "servers": {
+    "fastmcp-server": {
+      "type": "stdio",
+      "command": "node",
+      "args": ["build/index.js"]
+    }
+  }
+}

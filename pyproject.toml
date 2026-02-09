@@ -1,0 +1,8 @@
+[project]
+name = "fastmcp-workspace"
+version = "0.1.0"
+description = "A FastMCP workspace for building MCP servers"
+requires-python = ">=3.11"
+dependencies = [
+    "fastmcp>=3.0.0b2",
+]
