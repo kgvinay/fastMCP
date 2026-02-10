@@ -1,7 +1,7 @@
 import logging
 import sys
 
-from fastmcp import FastMCP
+from mcp import FastMCP
 
 # Ensure any logging goes to stderr so stdio remains reserved for MCP JSON
 logging.basicConfig(stream=sys.stderr, level=logging.INFO)
